@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* padding: 1vw 2vw; */
+}
+
+.page1 nav{
+    width: 100%;
+    height: 15vh;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 5.5vw;
+}
+
+nav h1{
+    font-size: 2.4vw;
+    font-weight: 800;
+}
+
+nav h1 span{
+    color: green;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8vw;
+    /* margin-right: 6vw; */
+}
+
+nav ul li{
+    font-size: 1.4vw;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+}
+
+nav .btns{
+    display: flex;
+    /* gap: 2vw; */
+    /* background: blue; */
+    width: 20%;
+    justify-content: space-between;
+}
+
+
+.btns button:nth-child(1){
+    padding: 0.5vw 1.6vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: gray;
+    border-radius: 50px;
+    border: none;
+    background: transparent;
+}
+
+.btns button:nth-child(2){
+    padding: 0.1vw 1.9vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: gray;
+    border-radius: 50px;
+    border: none;
+}
+
+.page1-content{
+    width: 100%;
+    height: 85vh;
+    background: wheat;
+    display: flex;
+    /* padding: 1.5vw 2.5vw; */
+
+}
+
+.left1{
+    width: 30%;
+    height: 100%;
+    background: blue;
+    padding: 6.5vw 5.5vw;
+    /* position: relative; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.left1 h1{
+    font-size: 5.5vw;
+    /* padding-top: 5vw; */
+    /* background: red; */
+}
+
+.left1 .P{
+    display: flex;
+    margin-top: 3.5vw;
+    /* border-radius: 50px; */
+    /* background: green; */
+    height: 11vh;
+    width: 27vw;
+    position: absolute;
+    left: 5.8%;
+}
+
+.left1 .P input{
+    width: 80%;
+
+    padding: 1.5vw 1vw;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.left1 .P span{
+    /* width: 20%; */
+    padding: 1.59vw;
+    background-color: rgb(46, 177, 46);
+    font-size: 2vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+.right1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5vw 1vw;
+    background: wheat;
+    gap: 2.5vw;
+}
+
+.right1 .img1{
+    width: 46%     ;
+    /* background: red; */
+    border-radius: 50px;
+    height: 95%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s ease-in-out;
+    /* box-shadow: 2px 2px 15px black,
+                -2px -2px 15px black; */
+}
+
+.right1 .img2,.img3{
+    width: 22%;
+    border-radius: 50px;
+    height: 95%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s ease-in-out;
+    /* box-shadow: 2px 2px 15px black,
+                -2px -2px 15px black; */
+}
+
+/* 
+.right1 .img1 img{ 
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    object-position: -10%;
+} */
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+.page2>h1{
+    background-color: aqua;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    font-weight: 800;
+    letter-spacing: -1px;
+    height: 15%;
+    margin: auto;
+}
+
+.page2 ul{
+    list-style: none;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    height: 10%;
+}
+
+.page2 ul li{
+    font-size: 1.2vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.page2-content{
+    width: 100%;
+    height: 100%;
+    background: red;
+    padding: 2.5vw 3.5vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+.ele1{
+    width: 25%;
+    background: blueviolet;
+    height: 75%;
+    overflow: hidden;
+}
+
+.ele1 img{
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 20px;
+}
+
+.ele1 h2{
+    font-size: 1.9vw;
+    font-weight: 500;
+}
+
+.ele1 p{
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+
+/* ------------------- Page-3 ---------------- */
+.page3{
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+    padding: 0vw 3.5vw;
+
+}
+
+.page3-top{
+    width: 100%;
+    height: 25%;
+    background: blue;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.left3-top{
+    width: 35%;
+}
+
+.left3-top h2{
+    font-size: 3vw;
+}
+
+.right3-top{
+    width: 55%;
+    padding: 1vw 1.2vw;
+}
+
+.right3-top>p{
+    /* width: 80%; */
+    font-size: 1.6vw;
+    background: rebeccapurple;
+    margin-left: 7vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+.experiences{
+    background: green;
+    width: 80%;
+    display: flex;
+    padding: 2vw 1.5vw;
+    /* text-align: center; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 2.5vw;
+    margin-left: 7vw;
+}
+
+.years10{
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    gap: 20px;
+}
+
+.years10 h3{
+    font-size: 3.8vw;
+    font-weight: 100;
+}
+
+.years10 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.line{
+    height: 3vw;
+    width: 2px;
+    background-color: black;
+}
+
+.courses250{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.courses250 h3{
+    font-size: 3.8vw;
+    font-weight: 100;
+}
+
+.courses250 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.page3-content{
+    width: 100%;
+    height: 100%;
+    background: rgb(72, 12, 12);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.left3{
+    width: 30%;
+    height: 75%;
+    background: rgb(179, 245, 242);
+}
+
+.left3-ele1{
+    margin-top: 5vw;
+}
+
+.left3-ele{
+    background: red;
+    display: flex;
+    /* align-items: center; */
+    gap: 2vw;
+    padding: .5vw 1vw;
+    margin-bottom: 5vw;
+}
+
+.icon1{
+    background: white;
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+}
+
+.i1-content h4{
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    margin-bottom: 0.5vw;
+}
+
+.i1-content p{
+    font-size: 1.1vw;
+}
+
+.right3{
+    width: 60%;
+    height: 70%;
+    background: blue;
+    place-content: center;
+
+}
+
+
+/* ------------------- page-4---------------- */
+.page4{
+    width: 100%;
+    height: 80vh;
+    background: wheat;
+}
+
+.page4 h1{
+    background-color: blue;
+    font-size: 2.5vw;
+    height: 20%;
+    /* text-align: center; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.cards{
+    min-width: 150%;
+    height: 60%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw 2vw;
+    gap: 2vw;
+}
+
+.card{
+    width: 19%;
+    height: 80%;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4vw;
+    box-shadow: 1px 1px 10px black;
+}
+
+.card p{
+    font-size: 1.1vw;
+    font-weight: 100;
+}
+
+.profile{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding: .5vw 1vw;
+    margin-bottom: 5vw;
+}
+
+.profile img{
+    background: white;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+
+.info h3{
+    font-size: 1.4vw;
+    text-transform: capitalize;
+    word-spacing: -5px;
+    letter-spacing: -1px;
+    margin-bottom: 0.5vw;
+}
+
+.info span{
+    font-size: 1.1vw;
+    color: green;
+    font-weight: 700;
+}
+
+.page4-btns{
+    text-align: center;
+}
+
+.page4-btns button{
+    font-size: 1.5vw;
+    font-weight: 900;
+    border-radius: 50%;
+    padding: 0.5vw 0.7vw;
+    text-align: center; 
+    background-color: transparent;
+    /* border: 2px solid black; */
+    cursor: pointer;
+
+}
